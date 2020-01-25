@@ -1,0 +1,142 @@
+{
+	"id": "395ca6b1-488c-4a29-9316-079eb6b11931",
+	"name": "Load Testing",
+	"timestamp": "2020-01-24T19:57:13.044Z",
+	"collection_id": "66bdbb13-a89f-494c-bf5d-0c46233bd38d",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 800,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "57fb8eef-56e9-407e-bb08-9054838c38f3",
+			"name": "http://localhost:8087/addProductsList",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 100,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"id": "02e1b72b-2719-4c79-afda-a57317585fe3",
+			"name": "http://localhost:8087/getProductsByBrandName/Adidas",
+			"time": 81,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true,
+				"Response test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 100,
+					"fail": 0
+				},
+				"Response test": {
+					"pass": 100,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"id": "18332af4-89b6-48df-a3cd-2dbcccaa2aa8",
+			"name": "http://localhost:8087/addProduct",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 100,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"id": "7dbf75b3-2e4b-44e0-80f8-f7fcfd0a4713",
+			"name": "http://localhost:8087/getBrands",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true,
+				"Response test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 100,
+					"fail": 0
+				},
+				"Response test": {
+					"pass": 100,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"id": "f2b894e7-727a-47bd-b724-d5840841d423",
+			"name": "http://localhost:8087/getProductsByBrandName/Nike",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true,
+				"Response test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 100,
+					"fail": 0
+				},
+				"Response test": {
+					"pass": 100,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"count": 100,
+	"collection": {
+		"requests": [
+			{
+				"id": "57fb8eef-56e9-407e-bb08-9054838c38f3",
+				"method": "POST"
+			},
+			{
+				"id": "02e1b72b-2719-4c79-afda-a57317585fe3",
+				"method": "GET"
+			},
+			{
+				"id": "18332af4-89b6-48df-a3cd-2dbcccaa2aa8",
+				"method": "POST"
+			},
+			{
+				"id": "7dbf75b3-2e4b-44e0-80f8-f7fcfd0a4713",
+				"method": "GET"
+			},
+			{
+				"id": "f2b894e7-727a-47bd-b724-d5840841d423",
+				"method": "GET"
+			}
+		]
+	}
+}
